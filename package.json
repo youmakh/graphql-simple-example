@@ -1,0 +1,10 @@
+{
+  "name": "simple_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Yurii Makukha",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
