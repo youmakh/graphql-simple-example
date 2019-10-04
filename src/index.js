@@ -6,20 +6,20 @@ let posts = [
 let idCounter = posts.length
 
 const typeDefs = `
-type Query {
-    feed: [Post!]!
-    post(id: String!): Post!
-}
+    type Query {
+        feed: [Post!]!
+        post(id: String!): Post!
+    }
 
-type Mutation {
-    post(title: String!, content: String!): Post!
-}
+    type Mutation {
+        post(title: String!, content: String!): Post!
+    }
 
-type Post {
-    id: ID!,
-    title: String!,
-    content: String!
-}
+    type Post {
+        id: ID!,
+        title: String!,
+        content: String!
+    }
 `
 
 const resolvers = {
